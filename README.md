@@ -24,7 +24,7 @@ flowchart TD
   Z["🖥️ Install an agent<br>(Claude Code, Codex, …)<br>+ make an empty folder"] --> S0
   S0["0 · pm-0-setup<br>📄 AGENTS.md"] --> S1
   S1["1 · pm-1-interview<br>📄 PRD.md<br><i>what and why</i>"] --> S2
-  S2["2 · pm-2-tech<br>📄 ARCHITECTURE.md<br><i>which tools, and why</i>"] --> S3
+  S2["2 · pm-2-tech<br>📄 TECH-STACK.md<br><i>which tools, and why</i>"] --> S3
   S3["3 · pm-3-slices<br>📄 ROADMAP.md<br><i>small pieces + answer key</i>"] --> S4
   S4["4 · pm-4-build<br>📄 CHANGELOG.md<br><i>one slice, proven</i>"] --> S5
   S5["5 · pm-5-review<br>📄 REVIEW.md + LESSONS.md<br><i>fresh eyes</i>"] -->|next slice| S4
@@ -38,7 +38,7 @@ Each step leaves a short file. The next step starts from that file, not from a l
 |---|---|---|---|
 | 0 | `pm-0-setup` | what you'd like to build, roughly | `AGENTS.md`: safety rules for the agent |
 | 1 | `pm-1-interview` | questions about the problem, one at a time | `PRD.md`: what we build, for whom, and what NOT |
-| 2 | `pm-2-tech` | business questions: users, data, budget | `ARCHITECTURE.md`: tools, and why |
+| 2 | `pm-2-tech` | business questions: users, data, budget | `TECH-STACK.md`: tools, and why |
 | 3 | `pm-3-slices` | "is this the right answer key?" | `ROADMAP.md`: small slices with acceptance criteria |
 | 4 | `pm-4-build` | "yes" to a short plan, then hand checks | the slice, and a `CHANGELOG.md` entry |
 | 5 | `pm-5-review` | fix / skip / save as a lesson | `REVIEW.md`, `LESSONS.md` |
@@ -62,7 +62,7 @@ in plain words ("let's write the PRD") and the agent will pick the right skill b
 |---|---|---|
 | 0 | `/pm-0-setup` (Claude Code) · `$pm-0-setup` (Codex) · or "set up my project" | It writes **AGENTS.md**: the rules every agent session reads first. AGENTS.md is not a skill, just a file the agent reads. |
 | 1 | `pm-1-interview` · or "interview me about my idea" | Questions, one at a time → **PRD.md** |
-| 2 | `pm-2-tech` · or "help me choose the technology" | Options in business language → **ARCHITECTURE.md** |
+| 2 | `pm-2-tech` · or "help me choose the technology" | Options in business language → **TECH-STACK.md** |
 | 3 | `pm-3-slices` · or "cut it into small slices" | **ROADMAP.md** with acceptance criteria |
 | 4 | `pm-4-build` · or "build slice 1" | A short plan for your "yes", then the slice → **CHANGELOG.md** |
 | 5 | `pm-5-review` · or "review slice 1" (in a **new** session) | **REVIEW.md**, and lessons in **LESSONS.md** |
@@ -89,14 +89,14 @@ You can paste these into any AI chat. You'll copy files by hand, but the method 
    we are NOT doing, open questions."
 2. **Tech choice:** "Read my PRD. Propose one safe default and up to two alternatives. For each:
    cost, effort, risk, and what the user would notice, in plain business language. Then list
-   what could go wrong in six months. Write ARCHITECTURE.md with the decisions and why."
+   what could go wrong in six months. Write TECH-STACK.md with the decisions and why."
 3. **Slices:** "Split the PRD into small vertical slices: each one something a user can click
    and test. For each: what I'll see, 3 to 5 acceptance criteria (including one unhappy path),
    and what's not in it. No estimates. Write ROADMAP.md."
 4. **Build:** "Build only slice [n]. First show me a short plan and wait for my yes. Don't add
    anything else. Prove the acceptance criteria pass. Then write a CHANGELOG entry: what
    changed, what I should check by hand, and the next step."
-5. **Review:** "Review slice [n] against its acceptance criteria, the PRD and the architecture.
+5. **Review:** "Review slice [n] against its acceptance criteria, the PRD and the tech stack.
    List what's missing, what's different and what nobody asked for. Mark each finding Critical,
    Warning or Note. Don't fix anything yet."
 

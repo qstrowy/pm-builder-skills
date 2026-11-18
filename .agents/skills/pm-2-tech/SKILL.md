@@ -3,11 +3,11 @@ name: pm-2-tech
 description: >
   Help a non-technical person choose the technology for a small app, explained in business
   language (cost, effort, risk, what users would notice), and record the decision in
-  ARCHITECTURE.md. Use after PRD.md exists. Trigger phrases: "choose the technology",
+  TECH-STACK.md. Use after PRD.md exists. Trigger phrases: "choose the technology",
   "what should we build it with", "tech choice", "pm tech".
 ---
 
-# Step 2: technology choice → ARCHITECTURE.md
+# Step 2: technology choice → TECH-STACK.md
 
 The user is not a developer. They can't judge frameworks, but they can judge consequences.
 Your job is to translate technical choices into business questions, recommend a safe default,
@@ -55,12 +55,12 @@ each with one way to prevent it. Add a short "things you might not know" list (f
 "the free tier sleeps after 15 minutes", "data stays in the browser, so it's lost if the browser
 is cleared"). Share this with the user before saving.
 
-## Write ARCHITECTURE.md
+## Write TECH-STACK.md
 
 One page, plain language:
 
 ```markdown
-# Architecture: <short name>
+# Tech stack: <short name>
 
 ## In one sentence
 What we build, and with what.
@@ -106,7 +106,7 @@ Ask before changing AGENTS.md.
 If the user agrees, create the starting project:
 
 1. Say exactly what you will set up, and wait for a "yes".
-2. Never overwrite PRD.md, ARCHITECTURE.md or other existing files. If the setup tool wants to
+2. Never overwrite PRD.md, TECH-STACK.md or other existing files. If the setup tool wants to
    replace a file, keep the user's version and save the new one next to it.
 3. Prove it runs: start it and ask the user to open it in the browser and confirm they see a
    page.

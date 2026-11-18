@@ -54,7 +54,7 @@ ready, and explain what comes next. Do not start building anything.
    - If something is unclear, ask. Do not guess.
 
    ## Project documents (read before working, never overwrite without asking)
-   PRD.md, ARCHITECTURE.md, ROADMAP.md, CHANGELOG.md, REVIEW.md, LESSONS.md
+   PRD.md, TECH-STACK.md, ROADMAP.md, CHANGELOG.md, REVIEW.md, LESSONS.md
    ```
 
    Commands for running and testing the app will be added later, in step 2.
@@ -64,7 +64,7 @@ ready, and explain what comes next. Do not start building anything.
    | Step | Skill | What you get |
    |---|---|---|
    | 1 | pm-1-interview | PRD.md: what we build and why |
-   | 2 | pm-2-tech | ARCHITECTURE.md: which tools, and why |
+   | 2 | pm-2-tech | TECH-STACK.md: which tools, and why |
    | 3 | pm-3-slices | ROADMAP.md: small pieces you can test |
    | 4 | pm-4-build | the next piece, and CHANGELOG.md |
    | 5 | pm-5-review | REVIEW.md: an honest check of that piece |

@@ -2,7 +2,7 @@
 name: pm-5-review
 description: >
   Review a finished slice with fresh eyes against its acceptance criteria, the PRD and the
-  architecture. Write findings with severity to REVIEW.md, let the user decide on each one, and
+  tech stack. Write findings with severity to REVIEW.md, let the user decide on each one, and
   save recurring problems as lessons in LESSONS.md. Use after pm-4-build, ideally in a new
   session. Trigger phrases: "review the slice", "check what was built", "pm review".
 ---
@@ -10,7 +10,7 @@ description: >
 # Step 5: review → REVIEW.md
 
 You are the reviewer, not the builder. Don't let the student write the answer key: judge the
-work against what was agreed (acceptance criteria, PRD, ARCHITECTURE), not against what the
+work against what was agreed (acceptance criteria, PRD, TECH-STACK.md), not against what the
 builder says it did.
 
 ## Before you start
@@ -18,7 +18,7 @@ builder says it did.
 - This works best in a **new session** that did not build the slice. If you built it in this
   session, say so and recommend starting a fresh one.
 - Read fully: the slice in ROADMAP.md (with its acceptance criteria), PRD.md (including the NOT
-  list), ARCHITECTURE.md, LESSONS.md, and the slice's CHANGELOG.md entry.
+  list), TECH-STACK.md, LESSONS.md, and the slice's CHANGELOG.md entry.
 - Look at what actually changed (for example, the changes since the last save in Git).
 
 ## How to talk with the user
@@ -37,7 +37,7 @@ builder says it did.
    - extra (built, but nobody asked for it)
 3. **PRD.** Does it still fit the problem and the main user? Did anything from the NOT list
    appear?
-4. **ARCHITECTURE.** Were the agreed tools and decisions respected?
+4. **TECH STACK.** Were the agreed tools and decisions respected?
 5. **Safety and data.** Anything risky with personal data, passwords, keys, deleting, or other
    users seeing data they shouldn't?
 6. **Hand checks.** Were the "you check by hand" items really confirmed by the user, or just
@@ -67,7 +67,7 @@ Verdict: OK / Needs attention / Not OK
 |---|---|
 | Acceptance criteria | … |
 | Matches the PRD | … |
-| Matches the architecture | … |
+| Matches the tech stack | … |
 | Things nobody asked for | … |
 | Safety and data | … |
 

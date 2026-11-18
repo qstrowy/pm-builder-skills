@@ -3,7 +3,7 @@ name: pm-3-slices
 description: >
   Cut the PRD into small vertical slices (each one something a user can actually do and test),
   with acceptance criteria written before building, and save them in ROADMAP.md. Use after
-  PRD.md (and ideally ARCHITECTURE.md) exist. Trigger phrases: "slice it", "make a roadmap",
+  PRD.md (and ideally TECH-STACK.md) exist. Trigger phrases: "slice it", "make a roadmap",
   "split into small steps", "pm slices".
 ---
 
@@ -15,7 +15,7 @@ contact" is a slice. "Build the database" is not.
 
 ## Before you start
 
-Read PRD.md and ARCHITECTURE.md fully, and LESSONS.md if it exists. If PRD.md is missing or too
+Read PRD.md and TECH-STACK.md fully, and LESSONS.md if it exists. If PRD.md is missing or too
 thin to slice (no smallest first use, no must-haves), stop and suggest going back to
 pm-1-interview.
 

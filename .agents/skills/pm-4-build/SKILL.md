@@ -13,7 +13,7 @@ Build one slice. Only that slice. Prove it works. Tell the truth about what happ
 
 ## Before you start
 
-Read fully: AGENTS.md, PRD.md, ARCHITECTURE.md, ROADMAP.md, the last CHANGELOG.md entry and
+Read fully: AGENTS.md, PRD.md, TECH-STACK.md, ROADMAP.md, the last CHANGELOG.md entry and
 LESSONS.md (if they exist). If the user didn't say which slice, take the first one with status
 "todo" whose "needs first" is done, and confirm it with them.
 
