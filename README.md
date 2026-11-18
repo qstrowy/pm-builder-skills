@@ -1,4 +1,4 @@
-# PM Builder Skills
+# ![PM Builder Skills: start building, and don't miss the train](assets/banner.svg)
 
 Six small skills that help a **non-technical person** build a small app with a coding agent,
 step by step, with a plan and with proof that it works.
