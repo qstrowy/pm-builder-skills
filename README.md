@@ -72,8 +72,6 @@ move on.
 
 ## How to use them well
 
-- **One step per session is fine.** Start a fresh session for a new step. The files carry the
-  memory, not the chat.
 - **Review in a fresh session.** The agent that built the slice shouldn't grade its own work.
 - **Read the files.** PRD.md and ROADMAP.md are yours. Change them whenever you want.
 - **"I don't know" is a good answer.** It becomes an open question, not a guess.
@@ -112,3 +110,7 @@ course materials, and this project is not affiliated with or endorsed by 10xDevs
 These skills are a starting point. Change the wording, add your company's rules, remove what you
 don't need. If you notice something you keep correcting, that's a lesson: add it to LESSONS.md
 or to the skill itself.
+
+## License
+
+[MIT](LICENSE)
