@@ -43,10 +43,10 @@ Each step leaves a short file. The next step starts from that file, not from a l
 
 ## Install
 
-1. Install a coding agent, for example **Claude Code** or **Codex**. Maybe your company already
-   pays for one.
+1. Install a coding agent, for example **Claude Code** or **Codex**.
 2. Make an empty folder for your project.
-3. Copy the skill folders (`pm-0-setup` … `pm-5-review`) into your project:
+3. Copy the skill folders (`pm-0-setup` … `pm-5-review`) into your project, or simply ask the
+   agent to install them in your folder and paste a link to this GitHub repo. Where they go:
    - **Codex** (and other tools that use the shared format): `<your project>/.agents/skills/`
    - **Claude Code**: `<your project>/.claude/skills/`
 4. Open the folder in the agent.
