@@ -107,6 +107,10 @@ The ideas behind these skills were inspired by what I learned in the
 simplified versions for non-technical people, written from scratch. They don't contain the
 course materials, and this project is not affiliated with or endorsed by 10xDevs.
 
+These skills serve a different purpose: a light start for non-coders. If you want to go deeper and
+learn to build real software with AI agents, I really recommend taking the
+[10xDevs](https://10xdevs.pl) course.
+
 ## Make them yours
 
 These skills are a starting point. Change the wording, add your company's rules, remove what you
