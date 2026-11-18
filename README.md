@@ -1,8 +1,10 @@
 # PM Builder Skills
 
-Six small skills that help a **non-technical person** (a project manager, business analyst or
-product owner) build a small app with a coding agent, step by step, with a plan and with proof
-that it works.
+Six small skills that help a **non-technical person** build a small app with a coding agent,
+step by step, with a plan and with proof that it works.
+
+For everyone who takes part in building a digital product: **Product Managers, Product Owners,
+Business Analysts, QAs, Scrum Masters**, and anyone else around the product who doesn't write code.
 
 > Start simple. But with a method, not with chaos.
 
